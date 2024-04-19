@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = "hui"
   s.platform = :ios, "9.0"
   # s.source = { :http => "https://github.com/touren/twitter-kit-ios/releases/download/v#{s.version}/TwitterKit.zip" }
-  s.source = { :git => "https://github.com/ace2github/TwitterKit-Sunny.git/iOS"}
+  s.source = { :git => "https://github.com/ace2github/TwitterKit-Sunny.git/iOS", :tag => "v#{s.version}"}
   # s.ios.public_header_files = "TwitterKit/TwitterKit/*.h"
   # s.ios.source_files = "TwitterKit/TwitterKit/**/*.{h,m}", "TwitterKit/TwitterKit/**/*.{h,m}"
   s.vendored_frameworks = "iOS/TwitterKit.framework"
